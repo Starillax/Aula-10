@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário de Contato - Teste</title>
+</head>
+<body bgcolor="lightcoral">
+    <form method="get">
+        <label>Nome
+            <input type="text" name="nome" id="idNome" maxlength="50"
+            placeholder="Informe seu nome completo" required>
+        </label>
+        <br>
+
+        <label>E-mail
+            <input type="text" name="Email" id="idEmail"
+            placeholder="Informe seu E-mail" required>
+        </label>
+        <br>
+
+        <label>Senha
+            <input type="password" name="Senha" id="idSenha" maxlength="15" 
+            minlength="6" placeholder="De 6 a 15 dígitos" required>
+        </label>
+        <br>
+
+        <label>CPF
+            <input type="text" name="CPF" id="idCPF" maxlength="11" 
+            minlength="9" placeholder="9 ou 11 dígitos" required>
+        </label>
+        <br>
+
+        <label>Idade
+            <input type="text" name="Idade" id="idIdade" max="145" 
+            min="0" placeholder="Informe seu E-mail" required>
+        </label>
+        <br>
+
+        <label>País
+            <select name="Pais" id="idPais">
+            <option>Brasil</option>
+            <option>Portugal</option>
+            </select>
+        </label>
+        <br>
+
+        <label>Estado
+            <select name="Estado" id="idEstado">
+            <option>RS</option>
+            <option>SC</option>
+            <option>PR</option>
+            <option>Lisboa</option>
+            <option>Centro</option>
+            <option>Norte</option>
+            </select>
+        </label>
+        <br>
+
+        <p>Área de Interesse</p>
+        <label>Programação Web
+            <input type="checkbox" value="prog-web" name="area-interesse">
+        </label>
+
+        <label>Programação Desktop
+            <input type="checkbox" value="prog-desktop" name="area-interesse">
+        </label>
+
+        <label>Programação Mobile
+            <input type="checkbox" value="prog-mobile" name="area-interesse">
+        </label>
+
+        <label>Jogos
+            <input type="checkbox" value="jogos" name="area-interesse">
+        </label>
+
+        <label>Rede de Computadores
+            <input type="checkbox" value="redes" name="area-interesse">
+        </label>
+        <br></br>
+
+        <p>Formas de Pagamento</p>
+        <label>Cartão de Crédito
+            <input type="radio" value="credito" name="pgto">
+        </label>
+
+        <label>Cartão de Débito
+            <input type="radio" value="debito" name="pgto">
+        </label>
+
+        <label>Boleto Bancário
+            <input type="radio" value="boleto" name="pgto">
+        </label>
+        <br></br>
+        <input type="submit" value="Cadastrar Usuário">
+    </form>
+</body>
+</html>
